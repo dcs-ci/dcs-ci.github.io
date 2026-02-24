@@ -25,6 +25,24 @@
     content="International conference on secure-by-design approaches for critical infrastructure." />
 
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+  <!-- Single Page Apps for GitHub Pages -->
+  <script type="text/javascript">
+    (function (l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function (s) {
+          return s.replace(/~and~/g, '&')
+        }).filter(function (v) {
+          return v.startsWith('p=/')
+        })[0];
+        if (decoded !== undefined) {
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded.slice(3) + l.hash
+          );
+        }
+      }
+    }(window.location))
+  </script>
   <script type="module" crossorigin src="/assets/index-DsGeDrgY.js"></script>
   <link rel="stylesheet" crossorigin href="/assets/index-DSI1sYEw.css">
 </head>
