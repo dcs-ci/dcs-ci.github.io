@@ -7,14 +7,14 @@
     <script type="text/javascript">
         // This script takes the current URL and converts it into a query parameter
         // that index.html can read and use to set the correct route.
-        var segmentCount = 0; // Number of segments to keep in the final path (0 for root)
-        var location = window.location;
-        location.replace(
-            location.protocol + '//' + location.hostname + (location.port ? ':' + location.port : '') +
-            location.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
-            location.pathname.split('/').slice(1 + segmentCount).join('/').replace(/&/g, '~and~') +
-            (location.search ? '&q=' + location.search.slice(1).replace(/&/g, '~and~') : '') +
-            location.hash
+        var pathSegmentsToKeep = 0; // Number of segments to keep in the final path (0 for root domain)
+        var l = window.location;
+        l.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+            l.pathname.split('/').slice(1 + pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
         );
     </script>
 </head>
