@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dcs-ci.org/</loc>
+    <loc>https://dcs-ci.github.io/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dcs-ci.org/about</loc>
+    <loc>https://dcs-ci.github.io/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dcs-ci.org/call-for-submissions</loc>
+    <loc>https://dcs-ci.github.io/call-for-submissions</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dcs-ci.org/call-for-posters</loc>
+    <loc>https://dcs-ci.github.io/call-for-posters</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dcs-ci.org/topics</loc>
+    <loc>https://dcs-ci.github.io/topics</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dcs-ci.org/dates</loc>
+    <loc>https://dcs-ci.github.io/dates</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dcs-ci.org/keynote-speakers</loc>
+    <loc>https://dcs-ci.github.io/keynote-speakers</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dcs-ci.org/venue</loc>
+    <loc>https://dcs-ci.github.io/venue</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dcs-ci.org/organization</loc>
+    <loc>https://dcs-ci.github.io/organization</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dcs-ci.org/contact</loc>
+    <loc>https://dcs-ci.github.io/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
